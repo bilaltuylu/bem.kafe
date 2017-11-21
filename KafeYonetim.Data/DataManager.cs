@@ -94,6 +94,22 @@ namespace KafeYonetim.Data
             }
         }
 
+        public static object CalisanSayisi()
+        {
+            using (var connection = CreateConnection())
+            {
+                var command = new SqlCommand("select count(Id) from Calisan ", connection);
+
+                var scalar = command.ExecuteScalar();
+
+               
+                return scalar;
+
+                //return new Tuple<int, int>((int)reader["MasaSayisi"], (int)reader["KisiSayisi"]);               
+                //return new MasaKisiSayisi { MasaSayisi = (int)reader["MasaSayisi"], KisiSayisi=(int)reader["KisiSayisi"]};
+            }
+        }
+
         public static List<Calisan> CalisanListesiniGetir()
         {
             using (var connection = CreateConnection())

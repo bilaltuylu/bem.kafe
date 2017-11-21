@@ -8,3 +8,8 @@ C:\Users\BEM\Source\Repos\Bem.Kafe\Bem.Kafe\Kafe.Lib\bin\Debug\KafeYonetim.Lib.p
 C:\Users\BEM\Source\Repos\Bem.Kafe\Bem.Kafe\Kafe.Lib\obj\Debug\KafeYonetim.Lib.csprojResolveAssemblyReference.cache
 C:\Users\BEM\Source\Repos\Bem.Kafe\Bem.Kafe\Kafe.Lib\obj\Debug\KafeYonetim.Lib.dll
 C:\Users\BEM\Source\Repos\Bem.Kafe\Bem.Kafe\Kafe.Lib\obj\Debug\KafeYonetim.Lib.pdb
+C:\Users\BEM\Source\Repos\bem.kafe\Kafe.Lib\bin\Debug\KafeYonetim.Lib.dll
+C:\Users\BEM\Source\Repos\bem.kafe\Kafe.Lib\bin\Debug\KafeYonetim.Lib.pdb
+C:\Users\BEM\Source\Repos\bem.kafe\Kafe.Lib\obj\Debug\KafeYonetim.Lib.csprojResolveAssemblyReference.cache
+C:\Users\BEM\Source\Repos\bem.kafe\Kafe.Lib\obj\Debug\KafeYonetim.Lib.dll
+C:\Users\BEM\Source\Repos\bem.kafe\Kafe.Lib\obj\Debug\KafeYonetim.Lib.pdb
