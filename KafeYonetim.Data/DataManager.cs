@@ -104,7 +104,7 @@ namespace KafeYonetim.Data
 
                
                 return scalar;
-
+            
                 //return new Tuple<int, int>((int)reader["MasaSayisi"], (int)reader["KisiSayisi"]);               
                 //return new MasaKisiSayisi { MasaSayisi = (int)reader["MasaSayisi"], KisiSayisi=(int)reader["KisiSayisi"]};
             }
