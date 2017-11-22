@@ -8,7 +8,7 @@ namespace KafeYonetim.Data
 
     public class DataManager
     {
-        private static string connStr = "Data Source=DESKTOP-S3O5AOR;Initial Catalog=KafeYonetim;Integrated Security=True";
+        private static string connStr = "Data Source=BILAL-PC\\SQLEXPRESS;Initial Catalog=KafeYonetim;Integrated Security=True";
 
         private static SqlConnection CreateConnection()
         {
@@ -415,6 +415,15 @@ namespace KafeYonetim.Data
 
                 var result = Convert.ToInt32(commandGarson.ExecuteScalar());
 
+                return result;
+            }
+        }
+        public static int SayfaSayisi()
+        {
+            using(var connection = CreateConnection())
+            {
+                var command = new SqlCommand("select (count(*)/20)+1 from Calisan where GorevId=2", connection);
+               int result=Convert.ToInt32(command.ExecuteScalar());
                 return result;
             }
         }
